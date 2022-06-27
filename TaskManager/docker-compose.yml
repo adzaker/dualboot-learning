@@ -20,5 +20,10 @@ services:
     ports:
       - 5432:5432
     environment:
+      DATABASE_NAME: postgres
+      DATABASE_USER: postgres
+      DATABASE_PASSWORD: postgres
+      DATABASE_HOST: db
+      DATABASE_PORT: 5432
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
